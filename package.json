@@ -1,19 +1,25 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "hapi-nuxt-tailwind",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
+  "description": "Nuxt Hapi Tailwind Starter for CodeSandBox",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
-    "dev": "MINIMAL=1 CSB=1 nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
     "generate": "nuxt generate",
+    "dev": "nodemon -w api server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "nuxt build",
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@hapi/hapi": "^18.4.1",
     "@nuxt/http": "^0.5.0",
+    "@nuxtjs/hapi": "3.0.0",
+    "@nuxtjs/tailwindcss": "3.0.2",
     "nuxt": "^2.12.2",
     "reqlim": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
   }
 }
