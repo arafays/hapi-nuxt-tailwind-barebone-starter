@@ -1,7 +1,7 @@
 {
-  "name": "hapi-nuxt-tailwind",
+  "name": "hapi-nuxt-tailwind-barebone-starter",
   "version": "1.0.0",
-  "description": "Nuxt Hapi Tailwind Starter for CodeSandBox",
+  "description": "Currently tailwind isnt working with hapi it is working `yarn nuxt` command",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -21,5 +21,6 @@
   },
   "devDependencies": {
     "nodemon": "2.0.4"
-  }
+  },
+  "keywords": []
 }
