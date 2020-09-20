@@ -33,20 +33,8 @@ export default {
    ** Nuxt.js modules
    ** Doc: https://nuxtjs.org/guide/modules
    */
-  modules: [
-    // Doc: https://http.nuxtjs.org
-    "@nuxt/http",
-    "@nuxtjs/tailwindcss",
-    // TODO: Remove it if you want to eject from codeSandbox
-    "./codesandbox"
-  ],
 
-  /*
-   ** HTTP module configuration
-   */
-  http: {
-    // See https://http.nuxtjs.org/api/#options
-  },
+  buildModules: ["@nuxtjs/tailwindcss"],
 
   /*
    ** Build configuration
@@ -58,10 +46,6 @@ export default {
      */
     extend(config, ctx) {}
   },
-  rootDir: "client",
-  tailwindcss: {
-    cssPath: "~/assets/css/tailwind.css",
-    configPath: "~/tailwind.config.js",
-    exposeConfig: true
-  }
+  srcDir: "client/",
+  rootDir: "./"
 };

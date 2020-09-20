@@ -7,14 +7,14 @@
   "scripts": {
     "generate": "nuxt generate",
     "dev": "nodemon -w api server.js",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "build": "nuxt build",
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
     "@hapi/hapi": "^18.4.1",
     "@nuxt/http": "^0.5.0",
-    "@nuxtjs/hapi": "3.0.0",
+    "@nuxtjs/hapi": "^3.0.0",
     "@nuxtjs/tailwindcss": "3.0.2",
     "nuxt": "^2.12.2",
     "reqlim": "^0.0.0"

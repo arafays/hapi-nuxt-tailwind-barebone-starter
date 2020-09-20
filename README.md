@@ -1,4 +1,4 @@
-# codesandbox-nuxt
+# Nuxt + Hapi + Tailwind starter template
 
 > Nuxt starter for CodeSandBox (used for https://template.nuxtjs.org)
 

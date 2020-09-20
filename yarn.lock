@@ -1495,7 +1495,7 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/hapi@3.0.0":
+"@nuxtjs/hapi@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/hapi/-/hapi-3.0.0.tgz#29d998366d56adb387233b82c8ad4024ccff9649"
   integrity sha512-Grhc/JCCNr/z+NI+MZOQIk2UIEgQzK/e3PhkI6wU0fbaTAgqNUi0PGY2Meor/iJSiKDdOiR+PkXE+B1ClucZ1Q==
