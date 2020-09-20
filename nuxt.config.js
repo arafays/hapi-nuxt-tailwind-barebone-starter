@@ -47,5 +47,10 @@ export default {
     extend(config, ctx) {}
   },
   srcDir: "client/",
-  rootDir: "./"
+  rootDir: "./",
+  tailwindcss: {
+    cssPath: "assets/css/tailwind.css",
+    configPath: "tailwind.config.js",
+    exposeConfig: true
+  }
 };

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-green-700">
+    <div class="bg-green-500">
       <Logo :width="350"/>
       <h1 class="title">
         NUXT
